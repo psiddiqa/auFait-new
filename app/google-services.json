@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "704091936719",
+    "project_id": "aufait-d40b5",
+    "storage_bucket": "aufait-d40b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704091936719:android:34513c394978d90e5aa4ba",
+        "android_client_info": {
+          "package_name": "com.example.aufait"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704091936719-8m7meanq4c61jm6m7vqhb2dnvv1tjmdi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aufait",
+            "certificate_hash": "5b99669d10414652b95ce98e16c048f8d5563a0c"
+          }
+        },
+        {
+          "client_id": "704091936719-hptqn5un09n6uuf8dvc73h92amcr2efq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNmOfkB-wog6Lcxa0DBtawI6jvgnMragg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704091936719-hptqn5un09n6uuf8dvc73h92amcr2efq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

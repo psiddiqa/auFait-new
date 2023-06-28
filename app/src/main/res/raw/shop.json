@@ -1,0 +1,242 @@
+[
+    {
+      "name":"ZARA",
+      "address":" BRIGADE GATEWAY,Dr Rajkumar Rd,Malleshwaram",
+      "delivery_charge": 25,
+      "image":"https://1000logos.net/wp-content/uploads/2017/05/Zara-Emblem.png",
+
+      "hours":{
+        "Sunday":"11:00 AM - 7:00 PM",
+        "Monday":"10:00 AM - 9:00 PM",
+        "Tuesday":"10:00 AM - 10:00 PM",
+        "Wednesday":"10:00 AM - 11:00 PM",
+        "Thursday":"10:00 AM - 10:00 PM",
+        "Friday":"10:00 AM - 11:00 PM",
+        "Saturday":"10:00 AM - 2:00 PM"
+      },
+      "menus": [
+        {
+          "name": "HIJAB",
+          "price": 390.00,
+          "url": "https://i.pinimg.com/564x/65/95/27/659527aaa8ffe5ba1409ab0ebc6a62a6.jpg"
+        },
+        {
+          "name": "BOMBER JACKET",
+          "price": 5087,
+          "url": "https://scontent.fblr4-2.fna.fbcdn.net/v/t39.30808-6/355152655_1864170007311181_1540265015017038551_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=2Yi6u4-3YusAX_M-f_W&_nc_ht=scontent.fblr4-2.fna&oh=00_AfBeRtwW-am9WbgAa8FWWwVbGGXM0eiMgzhvi2U36ByIOg&oe=6494C26C"
+        },
+        {
+          "name": "SATIN BLOUSE",
+          "price": 4990,
+          "url": "https://i.pinimg.com/564x/5e/dd/9e/5edd9e5927d38d4f618c41e5352d548b.jpg"
+        },
+        {
+          "name": "BLACK CROP TOP",
+          "price": 549,
+          "url": "https://i.pinimg.com/736x/b8/67/e5/b867e5cec535b770b8a642242a8e15cb.jpg"
+        },
+        {
+          "name": "FLARE JEANS",
+          "price": 800,
+          "url": "https://i.pinimg.com/564x/c9/6e/f9/c96ef9c413a77eccf10429eb74453868.jpg"
+        },
+        {
+          "name": "BLACK WIDE LEG JEANS",
+          "price": 925,
+          "url": "https://i.pinimg.com/564x/e7/9a/12/e79a1282d5e74dbed5bb43eb52bdf7d1.jpg"
+        },
+        {
+          "name": "PLEATED SKORT",
+          "price": 549,
+          "url": "https://i.pinimg.com/564x/a6/36/7a/a6367a51d3be06e6dc166131882bc21a.jpg"
+        },
+        {
+          "name": "BLACK SKIRT",
+          "price": 399,
+          "url": "https://i.pinimg.com/564x/37/2f/fb/372ffb23be6017dd4631f77a387e17f1.jpg"
+        },
+        {
+          "name": "DENIM OVERALLS",
+          "price": 809,
+          "url": "https://i.pinimg.com/564x/ac/a9/4c/aca94cbd879f0e9a455cc86aae7762b7.jpg"
+        },
+        {
+          "name": "PLEATED MIDI DRESS",
+          "price": 4949,
+          "url": "https://static.zara.net/photos///2023/V/0/1/p/7969/053/630/2/w/750/7969053630_6_1_1.jpg?ts=1677775053551"
+        }
+      ]
+    },
+    {
+      "name":"JIMMY CHOO",
+      "address":"UB City,Vittal Mallya Rd,Bangalore",
+      "delivery_charge": 4,
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXmSZEBzxN_MirWrJiM1_YVR0mbzuagOHwzQ",
+
+      "hours":{
+        "Sunday":"11:00 AM - 7:00 PM",
+        "Monday":"10:00 AM - 10:00 PM",
+        "Tuesday":"10:00 AM - 10:00 PM",
+        "Wednesday":"10:00 AM - 8:00 PM",
+        "Thursday":"10:00 AM - 10:00 PM",
+        "Friday":"10:00 AM - 10:00 PM",
+        "Saturday":"9:00 AM - 1:00 PM"
+      },
+      "menus": [
+        {
+          "name": "Platform Boots",
+          "price": 5230,
+          "url": "https://www.ragsnrituals.com/cdn/shop/products/product-image-1120307112_2400x.jpg?v=1571609078"
+        },
+        {
+          "name": "WMNS Air Jordan 1 Retro High",
+          "price": 11000,
+          "url": "https://3.bp.blogspot.com/-mFwVac2LXGY/XMTpaeTqQ5I/AAAAAAABCnA/yDmDBWUeZNosCXC-XqypR_hT9MPTi-jDQCLcBGAs/s1600/A.jpg"
+        },
+        {
+          "name": "Sky High Heels",
+          "price": 900,
+          "url": "https://i.pinimg.com/originals/36/36/b9/3636b97d17d78e33282b73db246c58fe.jpg"
+        },
+        {
+          "name": " Blue Patent Leather Pointed Pumps",
+          "price": 7520,
+          "url": "https://media.jimmychoo.com/image/upload/w_952,c_scale,q_auto:best,f_auto,dpr_2.0,h_952/ROWPROD_CONTENT/2023/landing-page/women/wk05/gbrow/gb-wlp-box2.jpg"
+        },
+        {
+          "name": "Biscuit Leather Mules",
+          "price": 3490,
+          "url": "https://media.jimmychoo.com/image/upload/f_auto,q_auto:best,dpr_2.0,w_520,h_520,c_fit/ROWPROD_PRODUCT/images/original/AVENUE85NAP_120263_DETAIL.jpg"
+        },
+        {
+          "name": "Blue Leather Wedges",
+          "price": 4950,
+          "url": "https://media.jimmychoo.com/image/upload/f_auto,q_auto:best,dpr_2.0,w_520,h_520,c_fit/ROWPROD_PRODUCT/images/original/CLAREWEDGE130NAP_042459_DETAIL_vg64.jpg"
+        },
+        {
+          "name": "Pink Suede Pumps",
+          "price": 3590,
+          "url": "https://i.pinimg.com/564x/9b/a9/9d/9ba99d4bed780d928d69678c348518fc.jpg"
+        },
+        {
+          "name": "Mary Janes",
+          "price": 5409,
+          "url": "https://i.pinimg.com/564x/dc/86/f3/dc86f34bf4bff01d76a94bb10b6c6110.jpg"
+        },
+        {
+          "name": "Converse",
+          "price": 3990,
+          "url": "https://i.pinimg.com/564x/cd/0e/fb/cd0efbe259385263d30bc0e218477050.jpg"
+        },
+        {
+          "name": "Crocs",
+          "price": 4829,
+          "url": "https://i.pinimg.com/564x/e8/e9/c3/e8e9c37525a11ab57fc559d5d1112d98.jpg"
+        },
+        {
+          "name": "Black Leather Flats",
+          "price": 6990,
+          "url": "Blue Nappa Leather Wedge"
+        }
+      ]
+    },
+  {
+    "name":"TOO FACED",
+    "address":" BEL Layout,Vidyaranyapura,Bengaluru.",
+    "delivery_charge": 5,
+    "image":"https://www.sheerid.com/shoppers/wp-content/uploads/sites/4/2022/07/microsoftteams-image-30-too-faced.png",
+    "hours":{
+      "Sunday":"11:00 AM - 7:00 PM",
+      "Monday":"10:00 AM - 10:00 PM",
+      "Tuesday":"10:00 AM - 10:00 PM",
+      "Wednesday":"10:00 AM - 8:00 PM",
+      "Thursday":"10:00 AM - 10:00 PM",
+      "Friday":"10:00 AM - 10:00 PM",
+      "Saturday":"9:00 AM - 2:00 PM"
+    },
+    "menus": [
+      {
+        "name": "Cleanser",
+        "price": 495,
+        "url": "https://i.pinimg.com/564x/ae/24/e4/ae24e4163fece27fbc90b3bd22dab085.jpg"
+      },
+      {
+        "name": "Toner",
+        "price": 359,
+        "url": "https://i.pinimg.com/564x/ca/8c/30/ca8c302856df112fb0bcb603c5222b14.jpg"
+      },
+      {
+        "name": "Moisturizer",
+        "price": 549,
+        "url": "https://i.pinimg.com/564x/eb/ed/00/ebed00a9a16879b8ee16d50a733e5125.jpg"
+      },
+      {
+        "name": "Sunscreen",
+        "price": 399,
+        "url": "https://i.pinimg.com/564x/b5/07/29/b507296e0bc0be2ae41ff192e6a6fbc2.jpg"
+      },
+      {
+        "name": "Face Masks",
+        "price": 829,
+        "url": "https://www.shopandshop.com/wp-content/uploads/2018/07/s-l500-1344.jpg"
+      },
+      {
+        "name": "Hangover Pillow Lip Balm",
+        "price": 699,
+        "url": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1070163/N2jYKx-osj-3E65030000_1.jpg?dpr=1"
+      }
+    ]
+  },
+  {
+    "name":"Huda Beauty",
+    "address":"THE FORUM MALL,Bengaluru.",
+    "delivery_charge": 6,
+    "image":"https://i.pinimg.com/originals/1c/ed/c2/1cedc25580c92ceb0ef59254dee9cf5f.jpg",
+    "hours":{
+      "Sunday":"11:00 AM - 7:00 PM",
+      "Monday":"10:00 AM - 10:00 PM",
+      "Tuesday":"10:00 AM - 10:00 PM",
+      "Wednesday":"10:00 AM - 8:00 PM",
+      "Thursday":"10:00 AM - 10:00 PM",
+      "Friday":"10:00 AM - 10:00 PM",
+      "Saturday":"10:00 AM - 3:00 PM"
+    },
+    "menus": [
+      {
+        "name": "MERCURY RETROGATE EYE SHADOW",
+        "price": 5000,
+        "url": "https://i.pinimg.com/564x/25/ac/f8/25acf828332ca61d6baa53b4db0ac963.jpg"
+      },
+      {
+        "name": "MASCARA",
+        "price": 3025,
+        "url": "https://i.pinimg.com/564x/d7/5c/13/d75c138ec847f0c42a965ab69bc6717c.jpg"
+      },
+      {
+        "name": "LIP AND CHEEK STAIN",
+        "price": 3049,
+        "url": "https://hudabeauty.com/dw/image/v2/BCNC_PRD/on/demandware.static/-/Sites-huda-master-catalog/default/dw817650a6/images/HB-LipBlush-ProductPhotos-0100-03.jpg?sw=1242&sh=1242&sm=fit"
+      },
+      {
+        "name": "NYMPH HIGHLIGHTER",
+        "price": 2099,
+        "url": "https://cdn.shopify.com/s/files/1/1666/8385/files/nymph-light_large.jpg?v=1557321296"
+      },
+      {
+        "name": "BULLET MATTE LIPSTICK",
+        "price": 5009,
+        "url": "https://images.squarespace-cdn.com/content/v1/54d4717de4b0950984a1ad2f/1564557444391-63C0IX2GNGXRM6D92BLS/Huda-Beauty-Third-Date-1.jpg"
+      },
+      {
+        "name": "NYMPH BLUSH",
+        "price": 3649,
+        "url": "https://kosmetista.in/wp-content/uploads/2022/06/Huda-Beauty-NYMPH-All-Over-Glow-Helios-1.jpeg"
+      },
+      {
+        "name": "FILTER FOUNDATION",
+        "price": 2649,
+        "url": "https://i.pinimg.com/564x/f5/77/5b/f5775b2619ae78c280068fdcfbc0972a.jpg"
+      }
+    ]
+  }
+]
