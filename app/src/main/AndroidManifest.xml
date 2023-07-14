@@ -12,30 +12,40 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AuFait"
         tools:targetApi="31">
-        <activity android:name=".LoginActivity"
-            android:exported="false"/>
-        <activity android:name=".SignUpActivity"
-            android:exported="false"/>
-        <activity android:name=".SplashActivity"
+        <activity
+            android:name=".ProductDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationDrawer"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name=".ShopMenuActivity"
-            android:exported="false"/>
-        <activity android:name=".PlaceYourOrderActivity"
-            android:exported="false"/>
-        <activity android:name=".OrderSucceessActivity"
-            android:exported="false"/>
+        <activity
+            android:name=".ShopMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlaceYourOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OrderSucceessActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>

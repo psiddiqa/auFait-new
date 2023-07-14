@@ -1,6 +1,7 @@
 package com.example.aufait.adapters;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.example.aufait.ProductDetailActivity;
 import com.example.aufait.model.Menu;
 
 import androidx.annotation.NonNull;
@@ -75,6 +77,16 @@ public class MenuListAdapter extends RecyclerView.Adapter<MenuListAdapter.MyView
                 holder.tvCount.setText(total +"");
             }
         });
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Menu menu = menuList.get(position);
+                Intent intent = new Intent(v.getContext(), ProductDetailActivity.class);
+                intent.putExtra("Menu", menu);
+                v.getContext().startActivity(intent);
+            }
+        });
+
 
         Glide.with(holder.thumbImage)
                 .load(menuList.get(position).getUrl())

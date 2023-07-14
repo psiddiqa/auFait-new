@@ -41,7 +41,7 @@ public class ShopMenuActivity extends AppCompatActivity implements MenuListAdapt
         initRecyclerView();
 
 
-         buttonCheckout = findViewById(R.id.buttonCheckout);
+        buttonCheckout = findViewById(R.id.buttonCheckout);
         buttonCheckout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
