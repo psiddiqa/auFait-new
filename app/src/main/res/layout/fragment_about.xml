@@ -1,17 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AboutFragment">
+    android:background="@android:color/white">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="About fragment"
-        android:textSize="30sp"
-        android:layout_centerInParent="true"
-        android:textColor="@color/lavender"/>
+        android:orientation="vertical"
+        android:padding="16dp">
 
-</RelativeLayout>
+        <TextView
+            android:id="@+id/appNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_marginBottom="10dp"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:textColor="@color/purple" />
+
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/app_description"
+            android:textAlignment="center"
+            android:textColor="@color/gray" />
+
+        <TextView
+            android:id="@+id/versionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/version"
+            android:textColor="@color/gray"
+            android:textAlignment="center"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/developerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/developer_info"
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:textStyle="bold" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/privacyPolicyTextView"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="8dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:text="@string/privacy_policy"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="@color/gray" />-->
+
+        <TextView
+            android:id="@+id/licensesTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/licenses"
+            android:textColor="@color/gray"
+            android:textAlignment="center"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/creditsTextView"
+            android:layout_width="363dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/credits"
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:textStyle="bold" />
+
+        <!-- Customize the layout further if needed -->
+
+    </LinearLayout>
+</ScrollView>

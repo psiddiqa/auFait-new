@@ -1,17 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SettingsFragment">
+    tools:context=".SettingsFragment"
+    android:background="@android:color/white">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <Spinner
+        android:id="@+id/generalSettingsSpinner"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Settings fragment"
-        android:textSize="30sp"
-        android:layout_centerInParent="true"
-        android:textColor="@color/lavender"/>
+        android:layout_height="48dp"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black" />
+
+    <Spinner
+        android:id="@+id/accountSettingsSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/generalSettingsSpinner"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black" />
+
+    <Spinner
+        android:id="@+id/displaySettingsSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/accountSettingsSpinner"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black" />
+
+    <Spinner
+        android:id="@+id/notificationSettingsSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/displaySettingsSpinner"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black" />
+
+    <Spinner
+        android:id="@+id/aboutHelpSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/notificationSettingsSpinner"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black" />
+
+
 
 </RelativeLayout>

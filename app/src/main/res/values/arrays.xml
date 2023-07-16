@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="general_settings_options">
+        <item>General Settings</item>
+        <item>Option 1</item>
+        <item>Option 2</item>
+    </string-array>
+
+    <string-array name="account_settings_options">
+        <item>Account Settings</item>
+        <item>Option 1</item>
+        <item>Option 2</item>
+    </string-array>
+
+    <string-array name="display_settings_options">
+        <item>Display Settings</item>
+        <item>Option 1</item>
+        <item>Option 2</item>
+    </string-array>
+
+    <string-array name="notification_settings_options">
+        <item>Notification Settings</item>
+        <item>Option 1</item>
+        <item>Option 2</item>
+    </string-array>
+
+    <string-array name="about_and_help_options">
+        <item>About and Help</item>
+        <item>Option 1</item>
+        <item>Option 2</item>
+    </string-array>
+</resources>

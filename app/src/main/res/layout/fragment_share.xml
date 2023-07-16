@@ -1,17 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ShareFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <!-- ScrollView to display fashion and beauty/makeup tips -->
+    <!-- ScrollView to display fashion and beauty/makeup tips -->
+
+
+    <!-- Button for sharing the app -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- TextView for the header "Tips" -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Tips"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <!-- Fashion Tips -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Fashion Tip 1: Mixing patterns can add a stylish and trendy touch to your outfit. Try pairing stripes with florals or plaid with polka dots."
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Fashion Tip 2: Invest in classic wardrobe staples like a well-fitted white button-down shirt, a tailored blazer, and a little black dress."
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Fashion Tip 3: Accessorize strategically. A statement necklace can elevate a simple outfit, while a belt can cinch your waist and create a flattering silhouette."
+                android:textSize="16sp" />
+
+            <!-- Beauty/Makeup Tips -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Beauty Tip 1: Always cleanse your face before going to bed to remove makeup and dirt, allowing your skin to breathe and regenerate overnight."
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Beauty Tip 2: Use sunscreen daily to protect your skin from harmful UV rays and prevent premature aging and sunspots."
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Beauty Tip 3: Experiment with different makeup looks, but always remember to embrace your natural beauty and feel confident in your own skin."
+                android:textSize="16sp" />
+
+            <!-- Add more fashion and beauty/makeup tips as needed -->
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/shareButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Share fragment"
-        android:textSize="30sp"
-        android:layout_centerInParent="true"
-        android:textColor="@color/lavender"/>
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="100dp"
+        android:text="Share App" />
 
 </RelativeLayout>

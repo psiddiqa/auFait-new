@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">auFait</string>
+    <string name="app_name" translatable="false">AuFait</string>
     <string name="open_nav" translatable="false">Open auFait</string>
     <string name="close_nav" translatable="false">Close auFait</string>
     <!-- TODO: Remove or change this placeholder text -->
@@ -9,9 +10,50 @@
     <string name="Nav_head1">AuFait</string>
     <string name="Nav_head2">contact@aufait.com</string>
     <string name="Nav_logo">nav logo</string>
+    <string name="app_description">Introducing "Au Fait" - the ultimate fashion and beauty app for women. Discover a curated selection of trendy clothing, shoes, makeup, and skincare products, all in one place. Our intuitive interface makes it easy to find the perfect items tailored to your style and preferences.With "Au Fait," you can confidently explore, shop, and express your unique sense of fashion. Whether you are looking for the latest fashion trends or high-quality beauty essentials, we have got you covered.Enjoy a seamless and personalized shopping experience with our recommendations tailored just for you. Shop with confidence using our secure payment system, and have your items delivered right to your doorstep.
 
+Join us in revolutionizing the way women explore, purchase, and engage with fashion and beauty. Discover your style, enhance your natural beauty, and embrace self-expression with "Au Fait."
 
+Download now and start your transformative fashion and beauty journey with "Au Fait."</string>
+    <string name="version">Version: 1.0.0</string>
+    <string name="developer_info">Developed by Parveen Siddiqa and Syeda Afsa Tamim</string>
+<!--    j -->
 
+    <string name="licenses"> The "Au Fait" app may include the use of open-source software libraries or other third-party components, which are subject to their respective licenses. We acknowledge and appreciate the contributions of the following projects:
 
+    - Picasso by Square, Inc.
+        License: Apache License 2.0
+        GitHub: https://github.com/square/picasso
+
+    - Retrofit by Square, Inc.
+        License: Apache License 2.0
+        GitHub: https://github.com/square/retrofit
+
+    - Gson by Google
+        License: Apache License 2.0
+        GitHub: https://github.com/google/gson
+
+    - Glide by Bumptech
+        License: BSD, part MIT and Apache 2.0
+        GitHub: https://github.com/bumptech/glide
+
+    - Firebase by Google
+        License: Apache License 2.0
+        Website: https://firebase.google.com/terms</string>
+    <string name="credits">Credits:\n
+ Development Team:\n
+    - Parveen Siddiqa\n
+    - Syeda Afsa Tamim\n
+        Design Team:\n
+    - Parveen Siddiqa\n
+    - Syeda Afsa Tamim\n
+         Content and Contributors:\n
+    - Parveen Siddiqa\n
+    - Syeda Afsa Tamim\n\n
+Brands:\n
+    Huda Beauty\n
+    Zara\n
+    Jimmy Choo\n
+    Too Faced</string>
 
 </resources>
