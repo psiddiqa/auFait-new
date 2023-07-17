@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ShareFragment">
+    tools:context=".ShareFragment"
+    android:background="@android:color/white">
 
     <!-- ScrollView to display fashion and beauty/makeup tips -->
     <!-- ScrollView to display fashion and beauty/makeup tips -->
@@ -86,12 +87,9 @@
         android:id="@+id/shareButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="500dp"
-        android:layout_marginBottom="100dp"
+        android:layout_margin="8dp"
         android:text="Share App" />
 
 </RelativeLayout>

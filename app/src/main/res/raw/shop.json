@@ -36,6 +36,11 @@
           "url": "https://i.pinimg.com/736x/b8/67/e5/b867e5cec535b770b8a642242a8e15cb.jpg"
         },
         {
+          "name": "PLEATED MIDI DRESS",
+          "price": 4949,
+          "url": "https://static.zara.net/photos///2023/V/0/1/p/7969/053/630/2/w/750/7969053630_6_1_1.jpg?ts=1677775053551"
+        },
+        {
           "name": "FLARE JEANS",
           "price": 800,
           "url": "https://i.pinimg.com/564x/c9/6e/f9/c96ef9c413a77eccf10429eb74453868.jpg"
@@ -60,9 +65,10 @@
           "price": 809,
           "url": "https://i.pinimg.com/564x/ac/a9/4c/aca94cbd879f0e9a455cc86aae7762b7.jpg"
         },
+
         {
-          "name": "PLEATED MIDI DRESS",
-          "price": 4949,
+          "name": "Kurti",
+          "price": 500,
           "url": "https://static.zara.net/photos///2023/V/0/1/p/7969/053/630/2/w/750/7969053630_6_1_1.jpg?ts=1677775053551"
         }
       ]
